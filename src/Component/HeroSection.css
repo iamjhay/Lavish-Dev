@@ -1,0 +1,149 @@
+.home__hero-section {
+  color: white;
+  padding: 110px 0;
+  position: relative;
+}
+
+.home__hero-row {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-bottom: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.home__hero-text-wrapper {
+  padding: 50px 30px;
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+}
+
+.top-line {
+  font-size: clamp(0.5rem, 2vw, 0.8rem);
+  line-height: 16px;
+  font-weight: Bold;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  color: #f7f8fa;
+}
+
+.dark {
+  color: #101522;
+}
+
+.darkBg {
+  background-color: #101522;
+}
+
+.home__hero-subtitle {
+  max-width: 480px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+
+.home__hero-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__hero-img {
+  max-width: 80%;
+  margin: 0 0 0 10px;
+  padding-right: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .home__hero-section {
+    padding: 100px 0;
+  }
+  .home__hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1rem);
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__hero-text-wrapper {
+    padding: 20px 25px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .home__hero-section {
+    padding: 50px 0;
+  }
+}
+
+.svgShape {
+  display: block;
+}
+
+.not-svgShape {
+  display: none;
+}
+
+.custom-shape-divider-bottom-1613737056 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613737056 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1613737056 .shape-fill {
+  fill: #ffffff;
+}
