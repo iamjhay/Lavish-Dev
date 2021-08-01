@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Lavish-Dev/static/css/main.6230d2de.chunk.css",
+    "main.js": "/Lavish-Dev/static/js/main.2ee9a143.chunk.js",
+    "main.js.map": "/Lavish-Dev/static/js/main.2ee9a143.chunk.js.map",
+    "runtime-main.js": "/Lavish-Dev/static/js/runtime-main.84af93ee.js",
+    "runtime-main.js.map": "/Lavish-Dev/static/js/runtime-main.84af93ee.js.map",
+    "static/js/2.aa8b6757.chunk.js": "/Lavish-Dev/static/js/2.aa8b6757.chunk.js",
+    "static/js/2.aa8b6757.chunk.js.map": "/Lavish-Dev/static/js/2.aa8b6757.chunk.js.map",
+    "index.html": "/Lavish-Dev/index.html",
+    "static/css/main.6230d2de.chunk.css.map": "/Lavish-Dev/static/css/main.6230d2de.chunk.css.map",
+    "static/js/2.aa8b6757.chunk.js.LICENSE.txt": "/Lavish-Dev/static/js/2.aa8b6757.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84af93ee.js",
+    "static/js/2.aa8b6757.chunk.js",
+    "static/css/main.6230d2de.chunk.css",
+    "static/js/main.2ee9a143.chunk.js"
+  ]
+}
