@@ -32,7 +32,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo">
+            <Link to="/Lavish-Dev/" className="navbar-logo">
               <MdFingerprint className="navbar-icon" />
               <h4 className="navbar-title">SmallViile</h4>
             </Link>
@@ -41,13 +41,17 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={CloseMobileMenu}>
+                <Link
+                  to="/Lavish-Dev/"
+                  className="nav-links"
+                  onClick={CloseMobileMenu}
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/services"
+                  to="/Lavish-Dev/services"
                   className="nav-links"
                   onClick={CloseMobileMenu}
                 >
@@ -56,7 +60,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/Lavish-Dev/products"
                   className="nav-links"
                   onClick={CloseMobileMenu}
                 >
