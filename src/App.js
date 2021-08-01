@@ -9,14 +9,14 @@ import ScrollToTop from "./Component/ScrollToTop";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/products' component={Products} />
-          <Route path='/services' component={Services} />
+          <Route path="/Lavish-Dev/" exact component={Home} />
+          <Route path="/Lavish-Dev/products" component={Products} />
+          <Route path="/Lavish-Dev/services" component={Services} />
         </Switch>
         <Footer />
       </Router>
